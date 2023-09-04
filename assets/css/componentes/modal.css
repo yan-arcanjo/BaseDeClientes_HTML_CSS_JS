@@ -28,6 +28,7 @@
 
 .modal__botao {
     font-size: var(--fonte-tamanho-modal-botao);
+    cursor: pointer;
 }
 
 .modal__texto { 

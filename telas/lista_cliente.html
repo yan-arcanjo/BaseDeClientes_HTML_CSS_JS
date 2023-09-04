@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doguito Petshop | Clientes</title>
+    <title>Clientes</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../assets/css/base/base.css">
@@ -43,7 +43,7 @@
                 </td> -->
             </tbody>
         </table>
-        <div class="modal-container modal--fechado">
+        <div data-modal class="modal-container modal--fechado">
             <article class="modal">
                 <h2 class="modal__titulo">
                     Excluir
@@ -52,13 +52,12 @@
                 <p class="modal__texto">Deseja excluir essa entrada?</p>
                 <div class="modal__botao-container">
                     <button class="modal__botao modal__botao--confirmar">Excluir</button>
-                    <button class="modal__botao">Não excluir</button>
+                    <button class="modal__botao modal__botao--nao-excluir">Não excluir</button>
                 </div>
             </article>
         </div>
     </main>
     <script type="module" src="../controllers/mostraClientes-controller.js"></script>
-    <script type="module" src="../app/deletaCliente.js"></script>
 </body> 
 
 
